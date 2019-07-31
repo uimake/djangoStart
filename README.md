@@ -21,4 +21,6 @@
 . 注册  'crispy_forms', 'xadmin',
 . 注册 'ckeditor', 'ckeditor_uploader',
 . (ckeditor需要静态css )collectstatic
+. startapp
 . makemigrations migrate createsuperuser
+. pip freeze > requirements.txt
